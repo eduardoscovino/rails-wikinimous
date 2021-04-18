@@ -3,3 +3,5 @@
     <li><%= link_to article.title, article_path(article) %>: <%= article.content%></li>
   <% end %>
 </ul>
+
+<p>To create a new quote, <%= link_to 'click here', new_article_path %></p>
